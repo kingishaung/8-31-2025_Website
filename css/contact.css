@@ -1,22 +1,43 @@
+:root {
+  --background: #333;
+  --foreground: white;
+  --text-4xl: 4rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background);
+  color:var(--foreground)
+}
+a {
+  padding: 15px;
+  text-align: center;
+    color: rgb(255, 255, 255);
+}
 body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--foreground);
 }
 
 label {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 110%;
+    color: var(--foreground);
 }
 
 .page-title {
     margin: 20px;
     font-size: 300%;
+    color: var(--foreground);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .page-subtitle {
     margin: 45px;
     font-size: 135%;
+    color: var(--foreground)
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -28,10 +49,10 @@ input[type=text] {
   width: 30%;
   margin: 15px 0;
   padding: 7px 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   border: 3px solid rgb(255, 255, 255);
   border-radius: 5px;
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
 }
 
@@ -39,10 +60,10 @@ textarea {
   width: 30%;
   margin: 15px 0;
   padding: 7px 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   border: 3px solid rgb(255, 255, 255);
   border-radius: 5px;
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -59,7 +80,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(145, 144, 144);
 }
 
 input[type=submit]:active {
