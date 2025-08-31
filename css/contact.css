@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+    color: white;
+    font-size: 110%;
+}
+
+.page-title {
+    margin: 20px;
+    font-size: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page-subtitle {
+    margin: 45px;
+    font-size: 135%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-form {
+    display: inline;
+}
+
+input[type=text] {
+  width: 30%;
+  margin: 15px 0;
+  padding: 7px 20px;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(23, 23, 23);
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 30%;
+  margin: 15px 0;
+  padding: 7px 20px;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(23, 23, 23);
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit] {
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 105%;
+    width: 80px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+input[type=submit]:active {
+    background-color: rgb(73, 142, 73);
+}
